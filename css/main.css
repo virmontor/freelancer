@@ -1,3 +1,316 @@
 /*
  * Estilos de tu proyecto
  */
+body {
+  margin: 0;
+  position: relative;
+
+}
+
+header{
+  background-color: #2c3e50;
+  position: fixed;
+  width: 100%;
+  padding: 65px;
+  margin: -20px;
+  outline: 1px solid white;
+  z-index: 1;
+}
+
+nav > div {
+  outline: 1px solid red;
+  position: absolute;
+  bottom: 43px;
+  margin-left: 60%;
+}
+
+nav > div > a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  text-transform: uppercase;
+  outline: 1px solid blue;
+  padding: 8px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  color: #18bc9c;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 70px;
+  top: 25px;
+  outline: 1px solid blue;
+  width: 30%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 31px;
+  font-weight: 900;
+  color: white;
+}
+
+/*Primera sección*/
+
+#first-section {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  font-family: 'Lato', sans-serif;
+  background-color: #18bc9c;
+  height: 700px;;
+}
+
+.profile {
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: 100px;
+}
+
+#first-section h1 {
+  color: white;
+  font-size: 76px;
+  margin-left: 22%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin-top: 33px;
+}
+
+#first-section i {
+  display: inline-block;
+  position: absolute;
+  margin-left: 48.5%;
+  top: 500px;
+  color: white;
+
+}
+
+#first-section hr {
+  display: inline-block;
+  position: absolute;
+  width: 9%;
+  margin-left: 38%;
+  top: 510px;
+}
+
+#first-section .line2 {
+    display: inline-block;
+    position: absolute;
+    width: 9%;
+    margin-left: 52%;
+    top: 510px;
+}
+
+#first-section h2 {
+  color: white;
+  font-size: 28px;
+  margin-left: 23%;
+  font-family: 'Lato', sans-serif;
+  font-weight:700;
+  font-weight: 600;
+  margin-top: 70px;
+
+}
+
+/*Segunda sección*/
+
+#second-section {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+
+}
+
+#second-section h1 {
+  color: black;
+  font-size: 50px;
+  margin-left: 38%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin-top: 800px;
+}
+
+#second-section i {
+  display: inline-block;
+  position: absolute;
+  margin-left: 48.5%;
+  top: 870px;
+  color: #2c3e50;
+
+}
+
+#second-section hr {
+  display: inline-block;
+  position: absolute;
+  width: 8%;
+  margin-left: 40%;
+  top: 880px;
+}
+
+#second-section .line2 {
+    display: inline-block;
+    position: absolute;
+    width: 8%;
+    margin-left: 51.5%;
+    top: 880px;
+}
+
+#second-section h2 {
+  color: white;
+  font-size: 28px;
+  margin-left: 23%;
+  font-family: 'Lato', sans-serif;
+  font-weight:700;
+  font-weight: 600;
+  margin-top: 70px;
+}
+
+#second-section img {
+display: inline-block;
+width: 25%;
+margin-left: 6%;
+margin-top: 30px;
+}
+
+/*Tercera sección*/
+
+#third-section {
+  position: absolute;
+  width: 100%;
+  height:550px;
+  top: 1650px;
+  background-color:  #18bc9c;
+}
+
+#third-section h1 {
+  color: white;
+  font-size: 50px;
+  margin-left: 43%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin-top: 80px;
+}
+
+#third-section i {
+  display: inline-block;
+  position: absolute;
+  margin-left: 49.5%;
+  top: 150px;
+  color: white;
+}
+
+#third-section hr {
+  display: inline-block;
+  position: absolute;
+  width: 9%;
+  margin-left: 39%;
+  top: 160px;
+}
+
+#third-section .line2 {
+  display: inline-block;
+  position: absolute;
+  width: 9%;
+  margin-left: 53%;
+  top: 160px;
+}
+
+
+#text .text1 {
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  width: 25%;
+  margin-left: 23%;
+  line-height: 30px;
+}
+
+#text .text2 {
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  width: 25%;
+  margin-left: 54%;
+  margin-top: -195px;
+  line-height: 30px;
+}
+#third-section > p {
+  color: white;
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 15%;
+  margin-left: 42%;
+  margin-top: 50px;
+  text-align:right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+ #bottom:hover {
+  color: #18bc9c;
+  background: #fff;
+  }
+
+  /*Cuarta sección*/
+
+#contact {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 1500px;
+}
+
+  #contact h1 {
+    color: black;
+    font-size: 50px;
+    margin-left: 37%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 800px;
+  }
+
+  #contact i {
+    display: inline-block;
+    position: absolute;
+    margin-left: 48.5%;
+    top: 870px;
+    color: #2c3e50;
+  }
+
+  #contact hr {
+    display: inline-block;
+    position: absolute;
+    width: 8%;
+    margin-left: 40%;
+    top: 880px;
+  }
+
+  #contact .line2 {
+      display: inline-block;
+      position: absolute;
+      width: 8%;
+      margin-left: 51.5%;
+      top: 880px;
+    }
+
+    .form {
+      margin-top: 100px;
+    }
+
+  input {
+    width: 50%;
+    margin-left: 25%;
+    top:1700px;
+    font-size: 23px;
+    border: none;
+    padding: 20px;
+  }
+
+
+  img:hover {
+   color: #18bc9c;
+   }
