@@ -4,7 +4,6 @@
 body {
   margin: 0;
   position: relative;
-
 }
 
 header{
@@ -13,12 +12,10 @@ header{
   width: 100%;
   padding: 65px;
   margin: -20px;
-  outline: 1px solid white;
   z-index: 1;
 }
 
 nav > div {
-  outline: 1px solid red;
   position: absolute;
   bottom: 43px;
   margin-left: 60%;
@@ -29,7 +26,6 @@ nav > div > a {
   font-weight: 900;
   font-size: 16px;
   text-transform: uppercase;
-  outline: 1px solid blue;
   padding: 8px;
   color: white;
   letter-spacing: 1px;
@@ -43,7 +39,6 @@ a:hover {
   position: absolute;
   margin-left: 70px;
   top: 25px;
-  outline: 1px solid blue;
   width: 30%;
   font-family: 'Montserrat', sans-serif;
   font-size: 31px;
@@ -83,7 +78,6 @@ a:hover {
   margin-left: 48.5%;
   top: 500px;
   color: white;
-
 }
 
 #first-section hr {
@@ -95,11 +89,11 @@ a:hover {
 }
 
 #first-section .line2 {
-    display: inline-block;
-    position: absolute;
-    width: 9%;
-    margin-left: 52%;
-    top: 510px;
+  display: inline-block;
+  position: absolute;
+  width: 9%;
+  margin-left: 52%;
+  top: 510px;
 }
 
 #first-section h2 {
@@ -110,7 +104,6 @@ a:hover {
   font-weight:700;
   font-weight: 600;
   margin-top: 70px;
-
 }
 
 /*Segunda sección*/
@@ -119,7 +112,6 @@ a:hover {
   position: absolute;
   width: 100%;
   top: 100px;
-
 }
 
 #second-section h1 {
@@ -137,7 +129,6 @@ a:hover {
   margin-left: 48.5%;
   top: 870px;
   color: #2c3e50;
-
 }
 
 #second-section hr {
@@ -149,11 +140,11 @@ a:hover {
 }
 
 #second-section .line2 {
-    display: inline-block;
-    position: absolute;
-    width: 8%;
-    margin-left: 51.5%;
-    top: 880px;
+  display: inline-block;
+  position: absolute;
+  width: 8%;
+  margin-left: 51.5%;
+  top: 880px;
 }
 
 #second-section h2 {
@@ -167,10 +158,10 @@ a:hover {
 }
 
 #second-section img {
-display: inline-block;
-width: 25%;
-margin-left: 6%;
-margin-top: 30px;
+  display: inline-block;
+  width: 25%;
+  margin-left: 6%;
+  margin-top: 30px;
 }
 
 /*Tercera sección*/
@@ -237,6 +228,7 @@ margin-top: 30px;
   margin-top: -195px;
   line-height: 30px;
 }
+
 #third-section > p {
   color: white;
   border: 2px solid white;
@@ -250,12 +242,12 @@ margin-top: 30px;
   font-size: 18px;
 }
 
- #bottom:hover {
+.bottom:hover {
   color: #18bc9c;
   background: #fff;
-  }
+}
 
-  /*Cuarta sección*/
+/*Cuarta sección*/
 
 #contact {
   position: absolute;
@@ -265,123 +257,123 @@ margin-top: 30px;
 }
 
 #contact h1 {
-    color: black;
-    font-size: 50px;
-    margin-left: 37%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    margin-top: 800px;
-  }
-
-  #contact i {
-    display: inline-block;
-    position: absolute;
-    margin-left: 48.5%;
-    top: 870px;
-    color: #2c3e50;
-  }
-
-  #contact hr {
-    display: inline-block;
-    position: absolute;
-    width: 8%;
-    margin-left: 40%;
-    top: 880px;
-  }
-
-  #contact .line2 {
-      display: inline-block;
-      position: absolute;
-      width: 8%;
-      margin-left: 51.5%;
-      top: 880px;
-    }
-
-    .form {
-      margin-top: 100px;
-    }
-
-  input {
-    width: 50%;
-    margin-left: 25%;
-    top:1700px;
-    font-size: 23px;
-    border: none;
-    padding: 25px;
-    outline: none;
-  }
-
-  #bottom2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    color: white;
-    background: #18bc9c;
-    width: 4%;
-    padding: 13px;
-    margin-left: 26%;
-    margin-top: 85px;
-    border-radius: 8px;
+  color: black;
+  font-size: 50px;
+  margin-left: 37%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin-top: 800px;
 }
 
-  #bottom2:hover {
-    background: #1f8c5b;
-   }
+#contact i {
+  display: inline-block;
+  position: absolute;
+  margin-left: 48.5%;
+  top: 870px;
+  color: #2c3e50;
+}
 
-   /*Footer*/
+#contact hr {
+  display: inline-block;
+  position: absolute;
+  width: 8%;
+  margin-left: 40%;
+  top: 880px;
+}
 
-   footer {
-    background-color: #2c3e50;
-    position: absolute;
-    width: 100%;
-    top: 3000px;
+#contact .line2 {
+  display: inline-block;
+  position: absolute;
+  width: 8%;
+  margin-left: 51.5%;
+  top: 880px;
+}
+
+.form {
+  margin-top: 100px;
+}
+
+input {
+  width: 50%;
+  margin-left: 25%;
+  top:1700px;
+  font-size: 23px;
+  border: none;
+  padding: 25px;
+  outline: none;
+}
+
+#bottom2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background: #18bc9c;
+  width: 4%;
+  padding: 13px;
+  margin-left: 26%;
+  margin-top: 85px;
+  border-radius: 8px;
+}
+
+#bottom2:hover {
+  background: #1f8c5b;
   }
 
-  footer p {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    display: inline-block;
-    margin-left: 11%;
-    margin-top: 100px;
-    height: 50px;
+  /*Footer*/
+
+footer {
+  background-color: #2c3e50;
+  position: absolute;
+  width: 100%;
+  top: 3000px;
+}
+
+footer p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  display: inline-block;
+  margin-left: 11%;
+  margin-top: 100px;
+  height: 50px;
+}
+
+.direction {
+  position: absolute;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  width: 17%;
+  text-align: center;
+  margin-left: 8%;
+  margin-top: 20px;
+}
+
+.about {
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  width: 23%;
+  text-align: center;
+  margin-left: 66%;
+  margin-top: 20px;
+}
+
+.icons {
+  color: white;
+  position: absolute;
+  top: 180px;
+  margin-left: 34%;
+  font-size: 30px;
   }
 
-  .direction {
-    position: absolute;
-    color:white;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    width: 17%;
-    text-align: center;
-    margin-left: 8%;
-    margin-top: 20px;
-  }
+.icons i {
+  padding: 10px;
+}
 
-  .about {
-    color:white;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    width: 23%;
-    text-align: center;
-    margin-left: 66%;
-    margin-top: 20px;
-  }
-
-  .icons {
-    color: white;
-    position: absolute;
-    top: 180px;
-    margin-left: 34%;
-    font-size: 30px;
-  }
-
-  .icons i {
-    padding: 10px;
-  }
-
-  i:hover {
-    color: #18bc9c;
+i:hover {
+  color: #18bc9c;
 }
 
 .end {
