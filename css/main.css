@@ -313,8 +313,12 @@ input {
   height: 30px;
   padding: 1%;
   margin-left: 26%;
-  margin-top: 85px;
+  margin-top: 80px;
   border-radius: 5px;
+}
+
+#bottom2:hover {
+  background: #086b4b;
 }
 
   /*Footer*/
@@ -368,12 +372,24 @@ footer span {
 }
 
 .icons {
+  outline: 1px solid red;
   color: white;
-  position: absolute;
-  top: 180px;
-  margin-left: 34%;
+  display: inline-block;
+  padding: 0%;
+  text-align: center;
+  margin-left: 33%;
   font-size: 30px;
+  margin-top: -400px;
+
   }
+
+.circle {
+border: 2px solid white;
+border-radius: 100%;
+margin-left: 10px;
+display: inline-block;
+
+}
 
 .icons i {
   padding: 10px;
