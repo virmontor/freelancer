@@ -228,23 +228,18 @@ a:hover {
   line-height: 30px;
 }
 
-#third-section > a {
-  position: absolute;
+#third-section > p {
+
   color: white;
   border: 2px solid white;
-  padding: 15px;
+  padding: 18px;
   border-radius: 5px;
   width: 15%;
   margin-left: 42%;
   margin-top: 50px;
   text-align:right;
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-}
-
-  #bottom:hover {
-  background:#fff;
-  color: #18bc9c;
+  font-size: 20px;
 }
 
 /*Cuarta sección*/
@@ -305,13 +300,13 @@ input {
 
 #bottom2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
   color: white;
   background: #18bc9c;
   width: 6%;
   height: 30px;
-  padding: 1%;
+  padding: 18px;
   margin-left: 26%;
   margin-top: 80px;
   border-radius: 5px;
@@ -350,11 +345,11 @@ footer span {
   position: absolute;
   color:white;
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   width: 17%;
   text-align: center;
   margin-left: 9%;
-  margin-top: 20px;
+  margin-top: -10px;
   font-weight: 500;
   line-height: 30px;
 }
@@ -362,41 +357,43 @@ footer span {
 .about {
   color:white;
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  width: 23%;
+  font-size: 20px;
+  width: 24%;
   text-align: center;
-  margin-left: 66%;
-  margin-top: 10px;
+  margin-left: 65%;
+  margin-top: -10px;
   font-weight: 500;
   line-height: 30px;
 }
 
 .icons {
-  outline: 1px solid red;
   color: white;
-  display: inline-block;
-  padding: 0%;
+  display: inline-flex;
   text-align: center;
-  margin-left: 33%;
-  font-size: 30px;
-  margin-top: -400px;
-
+  margin-left: 32.5%;
+  font-size: 19px;
+  position: relative;
+  bottom:90px;
   }
 
 .circle {
-border: 2px solid white;
-border-radius: 100%;
-margin-left: 10px;
-display: inline-block;
-
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-left: 10px;
+  display: inline-block;
+  width: 16%;
 }
 
 .icons i {
-  padding: 10px;
+  padding: 15px;
 }
 
 i:hover {
-  color: #18bc9c;
+  color: #1a252f;
+}
+
+.circle:hover {
+  background: white;
 }
 
 .Copyright {
@@ -417,5 +414,4 @@ i:hover {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 13px;
-
 }
